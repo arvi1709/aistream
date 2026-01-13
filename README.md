@@ -35,7 +35,7 @@ pip install -r requirements.txt
 Create a `.env` file in the main project folder and add your Google Gemini API key.
 
 ```dotenv
-GOOGLE_API_KEY="AIzaSy..."
+GOOGLE_API_KEY="YOUR_GOOGLE_API_KEY_HERE"
 ```
 
 ### 4. Run the Agent
