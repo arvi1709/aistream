@@ -1,0 +1,21 @@
+# Core LangChain stack
+langchain>=0.1.0
+langchain-core>=0.1.0
+langchain-community>=0.1.0
+
+# LangGraph for building the agent
+langgraph>=0.0.40
+
+# Google Gemini integration
+langchain-google-genai>=1.0.0
+google-generativeai>=0.4.0
+
+# Vector store for RAG
+faiss-cpu>=1.7.4
+
+# Utilities
+python-dotenv>=1.0.0
+tqdm>=4.66.0
+
+# Note: On Windows, installing `faiss-cpu` can be tricky.
+# If you have issues, try installing it with conda.
