@@ -41,11 +41,8 @@ pre-commit run --all-files
 
 ### 3. Add API Key
 
-Create a `.env` file in the main project folder and add your Google Gemini API key.
+Create a `.env` file in the main project folder and add your Google Gemini API key (environment variable name: `GOOGLE_API_KEY`). **Do not commit** the `.env` file to the repository.
 
-```dotenv
-GOOGLE_API_KEY="YOUR_GOOGLE_API_KEY_HERE"
-```
 
 ### 4. Run the Agent
 
