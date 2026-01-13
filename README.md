@@ -28,6 +28,15 @@ Install the required Python packages.
 ```bash
 pip install -r requirements.txt
 ```
+
+Install developer/pre-commit tools to prevent accidental secrets from being committed:
+
+```bash
+pip install --user pre-commit
+pre-commit install
+pre-commit run --all-files
+```
+
 > **Note for Windows Users**: If `faiss-cpu` fails to install, you might need to use `conda` to install it.
 
 ### 3. Add API Key
